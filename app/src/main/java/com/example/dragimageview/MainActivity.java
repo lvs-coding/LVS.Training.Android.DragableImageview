@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         statusBarHeight = getStatusBarHeight();
     }
 
-    @OnTouch(R.id.iv_0)
+    @OnTouch({R.id.iv_0,R.id.iv_1})
     public boolean touch(View view, MotionEvent event) {
 
         FrameLayout.LayoutParams params = (FrameLayout.LayoutParams)view.getLayoutParams();

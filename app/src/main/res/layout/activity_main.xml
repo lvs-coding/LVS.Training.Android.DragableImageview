@@ -8,14 +8,26 @@
     tools:context="com.example.dragimageview.MainActivity">
 
     <FrameLayout
-        android:id="@+id/fl_container"
+        android:id="@+id/fl_container0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/iv_0"
-        android:layout_width="@dimen/iv_width"
-        android:layout_height="@dimen/iv_height"
-        android:background="@color/color_iv"/>
+        <ImageView
+            android:id="@+id/iv_0"
+            android:layout_width="@dimen/iv_width"
+            android:layout_height="@dimen/iv_height"
+            android:background="@color/color_iv"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_container1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/iv_1"
+            android:layout_width="@dimen/iv_width"
+            android:layout_height="@dimen/iv_height"
+            android:background="@color/color_iv1"/>
     </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>
