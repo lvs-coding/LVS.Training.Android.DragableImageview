@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dragimageview.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_0"
+        android:layout_width="@dimen/iv_width"
+        android:layout_height="@dimen/iv_height"
+        android:background="@color/color_iv"/>
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
